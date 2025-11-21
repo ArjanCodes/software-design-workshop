@@ -1,0 +1,7 @@
+order_id,customer,product,quantity,price,date
+1001,Alice,Ebook,1,12.5,2023-11-10
+1002,Bob,Course,2,50.0,2024-01-05
+1003,Charlie,Ebook,1,12.5,2025-02-18
+1004,Alice,License,1,49.0,2025-05-12
+1005,Diana,Course,3,50.0,2025-06-01
+1006,Eve,License,2,49.0,2023-12-22
