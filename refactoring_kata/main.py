@@ -54,3 +54,19 @@ def checkout(cart):
         "tax": round(tax, 2),
         "total": round((food_net + other_net) + tax, 2),
     }
+
+
+def main():
+    cart = [
+        {"name": "apple", "category": "food", "unit_price": 2.0, "qty": 10},
+        {"name": "bread", "category": "food", "unit_price": 3.0, "qty": 2},
+        {"name": "laptop", "category": "other", "unit_price": 1000.0, "qty": 1},
+        {"name": "mouse", "category": "other", "unit_price": 50.0, "qty": 5},
+    ]
+
+    summary = checkout(cart)
+    print(summary)
+
+
+if __name__ == "__main__":
+    main()
