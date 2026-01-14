@@ -1,4 +1,4 @@
-from typing import Callable, Iterable, Sized, SupportsFloat
+from typing import Callable, Iterable, Sized
 
 
 def filter_odd_numbers(numbers: Iterable[int]) -> list[int]:
@@ -6,7 +6,7 @@ def filter_odd_numbers(numbers: Iterable[int]) -> list[int]:
     return [num for num in numbers if num % 2 == 0]
 
 
-def square_numbers(numbers: Iterable[SupportsFloat]) -> list[float]:
+def square_numbers(numbers: Iterable[int | float]) -> list[float]:
     """Square numbers in a sequence."""
     return [num**2 for num in numbers]
 
